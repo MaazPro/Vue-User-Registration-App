@@ -62,17 +62,67 @@
                                 <td>User@email.com</td>
                                 <td>+601234567</td>
                                 <!-- <td><a href="#" class ="fa fa-check"><i class="fas fa-edit"></i></a></td> -->
-                                <td><a href="#" class ="fa fa-check"><font-awesome-icon icon="fa-thin fa-check" /></a></td>
-                                <td><a href="#"><i class="fa-thin fa-check"></i></a></td>
+                                <td><a href="#" class ="fa fa-edit"><font-awesome-icon icon="fa-thin fa-check" /></a></td>
+                                <td><a href="#" class="text-danger"><i class="fas fa-trash-alt"></i></a></td>
+                            </tr>
+                            <tr class = "text-center">
+                                <td>1</td>
+                                <td>User</td>
+                                <td>User@email.com</td>
+                                <td>+601234567</td>
+                                <!-- <td><a href="#" class ="fa fa-check"><i class="fas fa-edit"></i></a></td> -->
+                                <td><a href="#" class ="fa fa-edit"><font-awesome-icon icon="fa-thin fa-check" /></a></td>
+                                <td><a href="#" class="text-danger"><i class="fas fa-trash-alt"></i></a></td>
+                            </tr>
+                            <tr class = "text-center">
+                                <td>1</td>
+                                <td>User</td>
+                                <td>User@email.com</td>
+                                <td>+601234567</td>
+                                <!-- <td><a href="#" class ="fa fa-check"><i class="fas fa-edit"></i></a></td> -->
+                                <td><a href="#" class ="fa fa-edit"><font-awesome-icon icon="fa-thin fa-check" /></a></td>
+                                <td><a href="#" class="text-danger"><i class="fas fa-trash-alt"></i></a></td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
             </div>
         </div>
+        <!-- Add new user -->
+        <div id="overlay">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Add New User</h5>
+                        <button type="button" class="close"><span aria-hidden="true">&times;</span> </button>
+                    </div>
+                    <div class="classmodal-body" p-4>
+                        <form action="#" method="post">
+                            <input type="text" name = "name" class="form-control form-control-lg" placeholder="Name">
+                        </form>
+                    </div>
+                    <div class="classmodal-body" p-4>
+                        <form action="#" method="post">
+                            <input type="email" name = "name" class="form-control form-control-lg" placeholder="Email">
+                        </form>
+                    </div>
+                    <div class="classmodal-body" p-4>
+                        <form action="#" method="post">
+                            <input type="tel" name = "name" class="form-control form-control-lg" placeholder="Phone">
+                        </form>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-info btn block btn lg">Add User</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <script src="https://unpkg.com/vue@3"></script>
+    <!-- <script src = "https://unpkg.com/vue@3"></script> -->
+    <!-- <script src="https://unpkg.com/vue@3.0.7/dist/vue.global.js"></script> -->
+    
+    <script src = "https://cdn.jsdelivr.net/npm/vue"></script>
     <script type = "text/javascript" src="main.js"></script>
 </body>
 </html>
